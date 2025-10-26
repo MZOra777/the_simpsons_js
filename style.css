@@ -26,7 +26,7 @@ header img{
     transition: transform 0.5s ease;
 }
 header img:hover{
-    transform: scale(1.2) rotate(380deg) ;
+    transform: scale(1.2) rotate(390deg) ;
     opacity: 1;
 }
 
@@ -74,22 +74,30 @@ button {
     width: 50%;
 }
 
-.card p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-}
 
 button:hover{
-    background-color: rgb(155, 192, 208) ;
-    color:black;
+    background-color: rgb(120, 142, 172) ;
+    color:white;
     font-size: 15px;
 }
 
-.character_name{
-    color:rgb(27, 31, 80);
+#character_data{
+    color:rgb(53, 55, 73);
+    font-size: 15px;
     font-weight: 700;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: 2px solid rgb(27, 31, 80);
-    border-radius: 5px;
     padding: 10px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#character_data span{
+    align-self: flex-start;
+}
+
+#character_data h2{
+    text-align: center;
+}
+
